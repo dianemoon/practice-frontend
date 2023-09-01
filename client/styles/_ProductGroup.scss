@@ -1,0 +1,20 @@
+#product-group-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  background-color: $white;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  #product-group {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+}

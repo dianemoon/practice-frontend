@@ -1,0 +1,67 @@
+#product {
+  width: 40vw;
+  min-width: 400px;
+  display: inline;
+  color: $blue;
+
+  //for the PRE-ORDER flags
+  position: relative;
+
+  .image-row {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    strong {
+      background-color: $coral;
+      font-size: 13px;
+      position: absolute;
+      top: 20px;
+      right: -3px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 13px;
+      padding-right: 13px;
+    }
+  }
+
+  .row-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+    h2, p {
+      display: inline;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    h2 {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  h3 {
+    margin-top: 11px;
+    font-size: 15px;
+  }
+}
+
+#product:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#product:active {
+  img, h2, h3, p {
+    opacity: 0.7;
+  }
+}

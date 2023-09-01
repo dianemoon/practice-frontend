@@ -1,0 +1,51 @@
+#header {
+  //colors
+  background-color: $blue;
+  color: rgba($coral, 0.7);
+
+  //flex
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+
+  //sizing
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+  //sticky
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;  
+  }
+
+  h1 {
+    margin: 0px;
+  }
+
+  h1:hover {
+    color: $coral;
+    cursor: pointer;
+  }
+
+  .header-page-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0px;
+
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    p:hover {
+      color: $coral;
+      cursor: pointer;
+    }
+  }
+}

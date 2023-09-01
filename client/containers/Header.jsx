@@ -22,7 +22,7 @@ const Header = () => {
           <p>BLOG</p>
           <p>SUPPORT</p>
         {/* </div> */}
-        <p>SHOP</p>
+          <strong>SHOP</strong>
         {/* <img></img>
         <div class="currency-dropdown">
           <button class="dropdown-button"></button>

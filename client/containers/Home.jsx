@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
 
   return (
-    <div id='Home'>
+    <div id='home'>
       {/* <img src={require('../assets/home.jpg')}></img> */}
       <h1>A CONSOLE FOR EVERY WORKFLOW</h1>
       <h2>Discover the perfect console for yours.</h2>

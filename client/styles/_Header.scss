@@ -1,8 +1,13 @@
+#header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #header {
   //colors
   background-color: $blue;
-  color: rgba($coral, 0.7);
-  box-shadow: 5px 5px;
+  color: $light-coral;
 
   //flex
   display: flex;
@@ -12,16 +17,16 @@
   justify-content: space-between;
 
   //sizing
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
+  width: 98vw;
+  top: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  //sticky
+  position: fixed;
 
   h1 {
-    margin: 0px;
+    margin-left: 10px;
   }
 
   h1:hover {

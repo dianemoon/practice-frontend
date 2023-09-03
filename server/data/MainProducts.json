@@ -1,0 +1,34 @@
+[
+  {
+    "name":"Mini Console",
+    "image1": "https://cdn.shopify.com/s/files/1/0974/7950/products/Everyday-Bundle-Mocks-final_1920x1281_crop_center.jpg.webp?v=1660013247",
+    "image2":"https://cdn.shopify.com/s/files/1/0974/7950/products/Everyday-Bundle-Mocks-horizontal_1920x1281_crop_center.jpg.webp?v=1668446709",
+    "price":249,
+    "description":"Ideal for photo & video. Adaptable to any workflow.",
+    "tag":"Pre-Order"
+  },
+  {
+    "name":"Audio Console",
+    "image1": "https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_TravelerClosedBracket1_Monogram_May20204517_d3899632-1a43-425f-a16a-1d5b968810c7_1920x1280_crop_center.jpg.webp?v=1623682377",
+    "image2":"https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp?v=1668433146",
+    "price":499,
+    "description":"Ideal for music & audio. Adaptable to any workflow.",
+    "tag":"Pre-Order"
+  },
+  {
+    "name":"Photo Console",
+    "image1": "https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_StudioClosedBracket1_Monogram_May20204507_548446cb-17c9-4fc2-8b12-ae1b1a308a7e_1920x1280_crop_center.jpg.webp?v=1623269261",
+    "image2":"https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_StudioBracket1_Monogram_May2020_4558_53685b21-b09f-45b0-85a2-180d6acfafac_1920x1280_crop_center.jpg.webp?v=1668433210",
+    "price":599,
+    "description":"Ideal for photo & video. Adaptable to any workflow.",
+    "tag":"Pre-Order"
+  },
+  {
+    "name":"Video Console",
+    "image1": "https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_MasterClosedBracket1_Monogram_May20204494_1920x1280_crop_center.jpg.webp?v=1623682600",
+    "image2":"https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_MasterBracket1_Monogram_May2020_4555_1920x1280_crop_center.jpg.webp?v=1668433240",
+    "price":899,
+    "description":"Ideal for video & film. Adaptable to any workflow.",
+    "tag":"Pre-Order"
+  }
+]

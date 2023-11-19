@@ -1,17 +1,34 @@
 import React from "react";
+import { Route, Routes } from 'react-router-dom';
+
+import Homepage from './pages/Homepage.jsx';
 import Header from './containers/Header.jsx';
-import Home from './containers/Home.jsx';
-import ProductGroup from './containers/ProductGroup.jsx';
-import Description from './containers/Description.jsx';
+import HowItWorks from './pages/HowItWorks.jsx';
 import Footer from './containers/Footer.jsx';
+import Download from './pages/Download.jsx';
+
 
 const App = () => {
   return (
     <div>
       <Header/>
-      <Home/>
-      <ProductGroup/>
-      <Description/>
+      <Routes>
+        <Route
+          exact
+          path='/'
+          element={<Homepage/>}
+        />
+        <Route
+          exact
+          path='/howitworks'
+          element={<HowItWorks/>}
+        />
+          <Route
+          exact
+          path='/download'
+          element={<Download/>}
+        />
+      </Routes>
       <Footer/>
     </div>
   );

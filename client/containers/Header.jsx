@@ -2,14 +2,15 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate();
 
   return (
     <div id='header-container'>
       <div id='header'>
-        <h1>Practice</h1>
+        <h1 onClick={() => navigate('/')}>Practice</h1>
         <div className="header-page-links">
           {/* <div className="header-page-links-group-1"> */}
-            <p>HOW IT WORKS</p>
+            <p onClick={() => navigate('/howitworks')}>HOW IT WORKS</p>
             {/* <div class="workflows-dropdown">
               <button class="workflows-button"></button>
               <div class="workflows-content">
@@ -19,7 +20,7 @@ const Header = () => {
                 <a>MINI CONSOLE</a>
               </div>
             </div> */}
-            <p>DOWNLOAD</p>
+            <p onClick={() => navigate('/download')}>DOWNLOAD</p>
             <p>BLOG</p>
             <p>SUPPORT</p>
           {/* </div> */}
